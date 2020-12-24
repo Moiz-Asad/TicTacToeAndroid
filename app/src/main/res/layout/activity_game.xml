@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Game">
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:clickable="false"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/B4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/B7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:id="@+id/B9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/mains"
+            android:onClick="Play"
+            android:textSize="60sp"
+            tools:ignore="ButtonStyle,OnClick" />
+
+    </TableRow>
+</TableLayout>

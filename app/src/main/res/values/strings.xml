@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="logotext">TIC TAC TOE</string>
+    <string name="PlayerX">X</string>
+    <string name="PlayerO">O</string>
+    <string name="the_winner_is">Winner!</string>
+    <string name="n">N</string>
+    <string name="close">Close</string>
+    <string name="lg">lg</string>
+    <string name="TTT">TTT</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+
+</resources>
